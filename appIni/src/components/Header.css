@@ -1,0 +1,35 @@
+.header {
+    background-color: #3db097;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-nav {
+    display: flex;
+  }
+  
+  .header-nav button {
+    margin-right: 5px; /* Adicione margem entre os botões */
+  }
+  
+  .header-user {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+  
+  .header-user i {
+    margin-right: 10px;
+  }
+  
+  .header-user button {
+    margin-left: 10px;
+  }

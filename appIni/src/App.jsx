@@ -1,17 +1,38 @@
-import { useState } from 'react'
 import './App.css'
-import LoginPage from './views/LoginPage'
+import { AuthProvider } from './contexts/AuthContext'; // Importe o AuthProvider
+import { useAuth } from './contexts/AuthContext'; // Importe o hook useAuth
+import LoginPage from './views/LoginPage';
+import MainPage from './views/MainPage';
+import { Route, Routes } from 'react-router-dom';
+import UserProfileForm from './views/UserProfilePage';
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-    
-    <LoginPage/>
-
-    </>
-  )
+      <AuthProvider>
+        <AuthContent />
+      </AuthProvider>
+  );
 }
 
-export default App
+function AuthContent() {
+  const { user } = useAuth(); 
+  return (
+    <>
+      {user ?
+         <Routes>
+            <Route index element={<MainPage/>}/>
+            <Route path="/user-prof" element={<UserProfileForm/>}/>
+
+
+         </Routes>
+     
+       : 
+      
+      <LoginPage />}
+    </>
+  );
+  
+  
+}
+
+export default App;
