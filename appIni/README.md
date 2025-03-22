@@ -1,8 +1,48 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 
 
-Currently, two official plugins are available:
+1. Acessar https://github.com/caetano1973/pw3_251
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Fazer Fork para copiar o projeto.
+
+3. Acessar pasta local e criar uma pasta para o projeto
+
+4. Clonar o projeto do seu usuário.
+
+5. Salvar o projeto em pasta local
+
+6. Acessar a pasta onde está o projeto via cmd e digitar comando
+```
+npm install
+```
+7. Abrir o projeto com vscode, via cmd
+
+```
+code .
+```
+ 
+8. Alterar o arquivo **firebase/config.js** , substituir as chaves, usando o seu projeto Firebase.
+
+```
+const firebaseConfig = {
+    apiKey: "",
+    authDomain: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: ""
+  };
+
+```
+9. Voltar para cmd e rodar o projeto:
+```
+npm run dev
+```
+
+ 
+
+ 
+
+ 
+
