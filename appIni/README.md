@@ -43,7 +43,11 @@ npm run dev
 Se tiver dúvida acessar o tutorial com imagens:
 https://etecspgov-my.sharepoint.com/:w:/r/personal/claudiomiro_silva2_etec_sp_gov_br/Documents/atividadeGitGithub02_appIni.docx?d=w318a41436c5c4334a52f2673f598ca86&csf=1&web=1&e=TcR8R7
 
- 
+Com seu projeto funcionando, é hora de publicar.
+
+Acesse  https://github.com/caetano1973/pw3_251/blob/main/appIni/FirebaseHosting.md
+
+Publique seu projeto e faça os ajustes necessários para funcionar bem no celular.
 
  
 
