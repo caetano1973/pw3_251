@@ -12,7 +12,7 @@
 
 5. Salvar o projeto em pasta local
 
-6. Acessar a pasta onde está o projeto via cmd e digitar comando (desse modo todas as dependências para o projeto funcionar serão instaladas)
+6. Acessar a pasta onde está o projeto via cmd e digitar comando (todas as dependências serão instaladas para o projeto funcionar)
 ```
 npm install
 ```
