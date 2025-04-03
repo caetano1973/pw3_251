@@ -12,10 +12,15 @@
 
 5. Salvar o projeto em pasta local
 
-6. Acessar a pasta onde está o projeto via cmd e digitar comando (todas as dependências serão instaladas para o projeto funcionar)
+6. Acessar a pasta onde está o projeto via cmd e digitar os 2 comandos (todas as dependências serão instaladas para o projeto funcionar)
 ```
 npm install
 ```
+
+```
+npm install react-router-dom
+```
+
 7. Abrir o projeto com vscode, via cmd
 
 ```
@@ -39,6 +44,8 @@ const firebaseConfig = {
 ```
 npm run dev
 ```
+
+10. Escolhar a opção "o" e [Enter] para abrir o projeto no navegador.
 
 Se tiver dúvida acessar o tutorial com imagens:
 https://etecspgov-my.sharepoint.com/:w:/r/personal/claudiomiro_silva2_etec_sp_gov_br/Documents/atividadeGitGithub02_appIni.docx?d=w318a41436c5c4334a52f2673f598ca86&csf=1&web=1&e=TcR8R7
