@@ -13,7 +13,8 @@ const UserProfileForm = () => {
   const [formData, setFormData] = useState({
     fullName: '',
     photo: '',
-    birthDate: ''
+    birthDate: '',
+    phone: ''
   });
 
   const [loading, setLoading] = useState(true);
@@ -37,6 +38,7 @@ const UserProfileForm = () => {
     };
 
     loadUserData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [auth.currentUser, db]);
 
   const handleChange = (e) => {
@@ -95,6 +97,9 @@ const UserProfileForm = () => {
 
           <label>Data de Nascimento</label>
           <input type="date" name="birthDate" value={formData.birthDate} onChange={handleChange} />
+
+          <label>Telefone</label>
+          <input type="phone" name="phone" value={formData.phone} onChange={handleChange} />
 
           <button type="submit">Salvar Dados</button>
         </form>
