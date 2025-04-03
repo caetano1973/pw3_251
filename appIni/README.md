@@ -12,9 +12,13 @@
 
 5. Salvar o projeto em pasta local
 
-6. Acessar a pasta onde está o projeto via cmd e digitar os 2 comandos (todas as dependências serão instaladas para o projeto funcionar)
+6. Acessar a pasta onde está o projeto via cmd e digitar os 3 comandos (todas as dependências serão instaladas para o projeto funcionar)
 ```
 npm install
+```
+
+```
+npm audit fix
 ```
 
 ```
