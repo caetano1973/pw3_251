@@ -44,12 +44,18 @@ const firebaseConfig = {
   };
 
 ```
-9. Voltar para cmd e rodar o projeto:
+9. Voltar para cmd e verificar se está na pasta **appIni** , se for necessário digite:
+```
+cd appIni
+```
+
+10. rodar o projeto dentro da pasta **appIni**
+  
 ```
 npm run dev
 ```
 
-10. Escolhar a opção "o" e [Enter] para abrir o projeto no navegador.
+11. Escolhar a opção "o" e [Enter] para abrir o projeto no navegador.
 
 Se tiver dúvida acessar o tutorial com imagens:
 https://etecspgov-my.sharepoint.com/:w:/r/personal/claudiomiro_silva2_etec_sp_gov_br/Documents/atividadeGitGithub02_appIni.docx?d=w318a41436c5c4334a52f2673f598ca86&csf=1&web=1&e=TcR8R7
