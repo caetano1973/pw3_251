@@ -452,7 +452,7 @@ export default ContactList;
 ```
 
 
-. Criar component Chat na pasta **components**
+8. Criar página ChatPage.jsx na pasta **views**
 
 
 ```
@@ -560,8 +560,8 @@ const Chat = () => {
 export default Chat;
 ```
 
-. criar um arquivo Chat.css 
-
+9. criar um arquivo **Chat.css** na pasta **views**
+    
 ```
 .chat-container {
     display: flex;
@@ -623,17 +623,20 @@ export default Chat;
   
 ```
 
-. Incluir acessos para abrir chat. 
+10. Na página **ContactListPage.jsx** , Incluir acessos para abrir chat: 
 
+a. incluir a function apos handleEdit
 ```
   const handleOpenChat = (id) => {
     navigate(`/chat/${id}`);
   };
 ```
 
- incluir na linha do contato.
+ b. incluir tratamento de evento na linha do contato.  dentro da div "<div key={user.id}  ..."
+ 
 ```
 onClick={() => handleOpenChat(user.id)}
 ```
+
 
 
