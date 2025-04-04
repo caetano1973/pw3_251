@@ -1,10 +1,8 @@
-1. corrigir atividade. dicas para resolver. básico.
-Fazer conforme tutorial do proprio exercício.
+## Criar feature para Contatos e Conversas. versão inicial
 
-2. fechar as notas dos alunos que entregaram, 
+### 1. partir do appIni básico. Fazer conforme tutorial do proprio exercício.
 
-3. Criar feature dos contatos:
-
+### 2. Criar feature dos contatos:
 
 1. criar página para add novo contato  AddContactPage.jsx 
 
