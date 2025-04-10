@@ -12,9 +12,6 @@ import Header from '../components/Header';
 import { Link, useNavigate } from 'react-router-dom';
 import { auth } from '../firebase/config';
 
-
-//import "./ContactList.css"
-
 const ContactList = () => {
   const [users, setUsers] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -85,7 +82,7 @@ const ContactList = () => {
         )}
 
 		{/* Botão flutuante, aqui abaixo */}
-        <Link to="/add-cont">         <div className="floating-button">
+                <Link to="/add-cont">         <div className="floating-button">
 			<span>+</span>
 			</div>
 		</Link>
@@ -105,10 +102,9 @@ export default ContactList;
 
 a. após as **const** no inicio. 
 ```
-  const [userNotFound, setUserNotFound] = useState(false);
   const [contactUserId, setContactUserId] = useState(null);
-
 ```
+
 b.   dentro da   const **fetchUserByEmail** = async (email) => {  , incluir setContactUserId
 ```
       if (!querySnapshot.empty) {
