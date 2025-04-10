@@ -103,7 +103,7 @@ export default ContactList;
 
 ### 2. ajustar   **AddContactPage.jsx**  =>  SALVAR IDUSER DO CONTATO  . ajustes pontuais.
 
-a. nas conts no inicio. 
+a. após as **const** no inicio. 
 ```
   const [userNotFound, setUserNotFound] = useState(false);
   const [contactUserId, setContactUserId] = useState(null);
