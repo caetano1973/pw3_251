@@ -106,14 +106,17 @@ a. após as **const** no inicio.
 ```
 
 b.   dentro da   const **fetchUserByEmail** = async (email) => {  , incluir setContactUserId
-```
+
+Após os comandos 
       if (!querySnapshot.empty) {
         const userData = querySnapshot.docs[0].data();
-
+INCLUIR:
+```
         setContactUserId(querySnapshot.docs[0].id); // Armazena o ID do usuário encontrado
-
 ```
 c.  dentro de **addDoc** , incluiur contactUserId
+
+SUBSTITUIR O TRECHO await addDoc:
 
 ```
       await addDoc(collection(db, 'contacts'), {
