@@ -365,92 +365,8 @@ export default ContactList;
 
 ```
 
-7. criar um novo arquivo. ContactList.css na pasta **views**
 
-```
-.contact-list-container {
-    padding: 20px;
-  }
-  
-  .contact-list {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .contact-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-  }
-    
-  .contact-photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-  }
-  
-  .contact-info {
-    flex: 1;
-    margin-left: 10px;
-  }
-  
-  .delete-btn {
-    background-color: red;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .delete-btn:hover {
-    background-color: #d32f2f;
-  }
-  
-  /* Estilo da Caixa de Confirmação */
-  .confirmation-dialog {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  .confirmation-dialog button {
-    margin: 5px;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .confirmation-dialog button:hover {
-    opacity: 0.8;
-  }
-  
-  .confirmation-dialog button:first-child {
-    background-color: green;
-    color: white;
-  }
-  
-  .confirmation-dialog button:last-child {
-    background-color: gray;
-    color: white;
-  }
-  
-
-```
-
-
-8. Criar página ChatPage.jsx na pasta **views**
+7. Criar página ChatPage.jsx na pasta **views**
 
 
 ```
@@ -635,6 +551,14 @@ a. incluir a function apos handleEdit
 ```
 onClick={() => handleOpenChat(user.id)}
 ```
+
+11. Criar nova rota no **App.jsx**  para permitir carregar a pagina Chat
+
+```
+            <Route path="/chat/:id"  element={<Chat />} />
+
+```
+
 
 
 
