@@ -4,7 +4,7 @@
 
 ### 2. Criar feature dos contatos:
 
-1. criar página para add novo contato  AddContactPage.jsx 
+1. Acessar a pasta **views** do projeto e criar página para add novo contato  AddContactPage.jsx 
 
 ```
 import { useState } from 'react';
