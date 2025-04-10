@@ -10,9 +10,16 @@
 
 4. Clonar o projeto do seu usuário.
 
-5. Salvar o projeto em pasta local
+5. Salvar o projeto em pasta local, por exemplo aula10
 
-6. Acessar a pasta onde está o projeto via cmd e digitar os 3 comandos (todas as dependências serão instaladas para o projeto funcionar)
+6. Acessar a pasta onde está o projeto via cmd e digitar os 3 comandos
+   (todas as dependências serão instaladas para o projeto funcionar)
+
+entrar na pasta raiz do Projeto.
+```
+cd appIni
+```
+   
 ```
 npm install
 ```
