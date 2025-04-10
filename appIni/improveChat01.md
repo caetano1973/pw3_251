@@ -131,13 +131,7 @@ SUBSTITUIR O TRECHO await addDoc:
 
 ### 3. Ajustar **ChatPage.jsx** 
 
-a. ajustar import do firestore 
-
-```
-import { collection, query, where, orderBy, addDoc, serverTimestamp, onSnapshot, getDoc, doc } from "firebase/firestore";
-
-```
-b. alterar o   **useEffect(() => {**  , substituir por esse codigo com 2 useEffect separados.
+a. alterar o   **useEffect(() => {**  , substituir por esse codigo com 2 useEffect separados.
 
 
 ```
@@ -176,7 +170,7 @@ b. alterar o   **useEffect(() => {**  , substituir por esse codigo com 2 useEffe
   }, [contact, myUserId]);
 ```
 
-c. alterar a **handleSendMessage**  para ajuste do chatKey. Salvar sempre origem_destino da msg.
+b. alterar a **handleSendMessage**  para ajuste do chatKey. Salvar sempre origem_destino da msg.
 
 ```
   
@@ -201,7 +195,7 @@ c. alterar a **handleSendMessage**  para ajuste do chatKey. Salvar sempre origem
 
 ```
 
-d.  alterar o input  para permitir enviar msg com [Enter]
+c.  alterar o input  para permitir enviar msg com [Enter]
 
 ```
         <form 
