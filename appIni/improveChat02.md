@@ -20,13 +20,15 @@ e também na function **handleGoogleLogin = async(e)**
 
 3. Ajustar **AddContactPage.jsx** para receber parametro.
 
+a. incluir import junto aos imports no inicio da página.
 ```
 import { useParams } from 'react-router-dom';
+```
 
-const AddContactPage = () => {
+b. Logo após a instrução **const AddContactPage = () => {**   incluir a linha
+
+```
   const { id } = useParams(); // vai ser undefined se estiver no modo de criação
-
-
 ```
 
 4. Se o id existir, buscar o contato no Firestore e preencher o **formData**:
