@@ -27,7 +27,8 @@ import { UseEffect } from 'react'
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 ```
 
-b. Logo após a instrução **const AddContactPage = () => {**   incluir a linha
+b. Logo após a instrução        **const AddContactPage = () => {**   
+incluir a linha:
 
 ```
   const { id } = useParams(); // vai ser undefined se estiver no modo de criação
