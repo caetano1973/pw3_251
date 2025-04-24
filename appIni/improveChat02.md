@@ -23,6 +23,8 @@ e também na function **handleGoogleLogin = async(e)**
 a. incluir import junto aos imports no inicio da página.
 ```
 import { useParams } from 'react-router-dom';
+import { UseEffect } from 'react'
+import { doc, getDoc, updateDoc } from 'firebase/firestore';
 ```
 
 b. Logo após a instrução **const AddContactPage = () => {**   incluir a linha
