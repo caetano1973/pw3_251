@@ -33,11 +33,10 @@ b. Logo após a instrução **const AddContactPage = () => {**   incluir a linha
 
 4. Se o id existir, buscar o contato no Firestore e preencher o **formData**:
 
-adicionar esse useEffect  apos as declarações de const  
- const [contactUserId, setContactUserId] = useState(null);
+adicionar esse useEffect  APÓS as declarações de const  
+ **const [contactUserId, setContactUserId] = useState(null);**
 
 ```
-
 useEffect(() => {
   if (id) {
     const fetchContact = async () => {
