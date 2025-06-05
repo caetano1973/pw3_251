@@ -13,7 +13,14 @@ O **Cypress** é uma ferramenta de testes E2E (End-to-End) para aplicações web
 
 ## 🚀 Instalação do Cypress no projeto React
 
-1. No terminal, execute:
+1. No terminal ou cmd, certificar-se de estar na pasta do projeto:
+
+Se precisar entre na pasta correta, por exemplo
+```bash
+cd appIni
+```
+
+Quando estiver no projeto instale o cypress
 
 ```bash
 npm install cypress --save-dev
@@ -39,7 +46,7 @@ cypress.config.js
 
 ## 🏗️ Criando seu primeiro teste E2E
 
-### 📄 Crie um arquivo dentro de `/cypress/e2e/`:
+### 📄 Crie um arquivo dentro de `/cypress/e2e/` dentro do seu projeto REACT:
 
 Exemplo de nome:
 
@@ -47,7 +54,7 @@ Exemplo de nome:
 /cypress/e2e/login.cy.js
 ```
 
-### 🧠 Código do teste:
+### 🧠 Código do teste para o projeto appIni , tela  LoginPage.jsx:
 
 ```javascript
 describe('Tela de Login', () => {
@@ -94,19 +101,19 @@ describe('Tela de Login', () => {
 
 ## 🏃 Executando os testes
 
-1. Rode sua aplicação normalmente:
+1. Rode sua aplicação normalmente, dentro da pasta do projeto appIni execute:
 
 ```bash
 npm run dev
 ```
 
-2. Em outro terminal, execute:
+2. Em outro terminal cmd, execute para abrir cypress:
 
 ```bash
 npx cypress open
 ```
 
-3. Na interface do Cypress, clique no arquivo `login.cy.js`.
+3. Na interface do Cypress, clique no arquivo `login.cy.js` , procure por Specs.
 
 > 🧠 O Cypress abrirá um navegador controlado automaticamente e executará os testes, mostrando passo a passo.
 
